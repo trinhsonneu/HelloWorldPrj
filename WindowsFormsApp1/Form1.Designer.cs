@@ -32,6 +32,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -57,7 +58,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(195, 168);
+            this.label2.Location = new System.Drawing.Point(270, 158);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(128, 20);
             this.label2.TabIndex = 2;
@@ -72,11 +73,21 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Yến";
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(421, 372);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(146, 39);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
@@ -94,6 +105,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button2;
     }
 }
 
